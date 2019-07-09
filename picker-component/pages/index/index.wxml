@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <region-picker bind:confirm="bindConfirm" getData="{{cityData}}">
+    <input name="city" placeholder="" class="col-title" 
+    value="{{multiArray[0].name}},{{multiArray[1].name}}" disabled/>
+  </region-picker>
+</view>
